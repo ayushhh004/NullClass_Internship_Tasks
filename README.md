@@ -9,9 +9,6 @@ excludes common stopwords and app names, providing meaningful insights into user
 - **Data Filtering**: Filters reviews to include only those from the "Health & Fitness" category.
 - **Text Cleaning**: Excludes common stopwords and app names.
 - **Word Cloud Generation**: Creates a visual word cloud of the most frequent 5-star review keywords.
-- **Outputs**:
-  - **PNG**: Saved as `wordcloud_health_fitness.png`.
-  - **HTML**: Saved as `wordcloud_health_fitness.html` for interactive visualization in a dashboard.
 **Library Used:**
 **pandas:** For data manipulation and handling.
 **re:** For regular expressions to clean text data.
@@ -19,6 +16,7 @@ excludes common stopwords and app names, providing meaningful insights into user
 **plotly:** For visualizing and displaying the word cloud as an interactive dashboard.
 
 **Task 2**
+# App Category Rating Distribution
 This project analyzes data from the Google Play Store, filtering it based on specific criteria to generate a grouped bar chart comparing the average rating and total review count for the top 10 app categories by number of installs. The chart is designed to update dynamically, with two different views:
 Average Rating View (Blue bars)
 Total Review Count View (Yellow bars)
@@ -37,7 +35,7 @@ Blue Bars (Average Rating): Clicking the blue button will display the chart with
 Yellow Bars (Total Review Count): Clicking the yellow button will display the chart showing the total review counts for the apps in the top categories.
 
 **Task 3**
-**App Ratings Distribution Visualization**
+# App Ratings Distribution Visualization
 This project visualizes the distribution of ratings for Google Play Store app categories using a violin plot. The plot is filtered based on the following criteria:
 Only categories with more than 50 apps.
 App names must contain the letter "C".
