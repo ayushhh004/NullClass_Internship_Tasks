@@ -98,7 +98,7 @@ plot_containers += """
 </div>
 """
 
-# Task 2: Show Bar Chart (Available from 3 PM to 5 PM IST)
+# Task 2: Show Bar Chart (Available from 3 PM to 5 PM)
 bar_chart_message = ""
 if 15 <= current_hour < 17:
     plot_containers += """
@@ -110,7 +110,7 @@ if 15 <= current_hour < 17:
 else:
     bar_chart_message = "Bar Chart is available between 3 PM and 5 PM IST."
 
-# Task 3: Show Violin Plot (Available from 4 PM to 6 PM IST)
+# Task 3: Show Violin Plot (Available from 4 PM to 6 PM)
 violin_plot_message = ""
 if 16 <= current_hour < 18:
     plot_containers += """
