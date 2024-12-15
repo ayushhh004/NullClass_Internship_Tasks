@@ -16,7 +16,7 @@ excludes common stopwords and app names, providing meaningful insights into user
 **plotly:** For visualizing and displaying the word cloud as an interactive dashboard.
 
 **Task 2**
-# App Category Rating Distribution
+# Grouped Bar Chart for Top 10 App Categories
 This project analyzes data from the Google Play Store, filtering it based on specific criteria to generate a grouped bar chart comparing the average rating and total review count for the top 10 app categories by number of installs. The chart is designed to update dynamically, with two different views:
 Average Rating View (Blue bars)
 Total Review Count View (Yellow bars)
@@ -35,7 +35,7 @@ Blue Bars (Average Rating): Clicking the blue button will display the chart with
 Yellow Bars (Total Review Count): Clicking the yellow button will display the chart showing the total review counts for the apps in the top categories.
 
 **Task 3**
-# App Ratings Distribution Visualization
+# Violin Plot for Distribution of Ratings in App Categories
 This project visualizes the distribution of ratings for Google Play Store app categories using a violin plot. The plot is filtered based on the following criteria:
 Only categories with more than 50 apps.
 App names must contain the letter "C".
