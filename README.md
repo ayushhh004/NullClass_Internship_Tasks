@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fe9513ac-dc29-4810-b505-01619cfafb9c)![image](https://github.com/user-attachments/assets/158ddbbc-bbbc-42ce-bf4e-842663f132c9)# NullClass_internship_Tasks
+# NullClass_internship_Tasks
 A data analytics project for Google Play Store app data with real-time dashboard visualizations.
 
 **Task 1**
